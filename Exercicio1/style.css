@@ -104,3 +104,35 @@ a:hover{
 
     margin-bottom: 20px;
 }
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 16px;
+
+    font-weight: 300;
+
+    margin-bottom: 15px;
+
+    color: #d1d1d1;
+}
+
+p{
+    font-size: 14px;
+
+    margin-bottom: 20px;
+
+    line-height: 1.6;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 10px 0;
+
+    font-size: 15px;
+}
