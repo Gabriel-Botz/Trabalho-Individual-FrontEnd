@@ -30,7 +30,7 @@ body{
     backdrop-filter: blur(10px);
     color: white;
     box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgb(90, 25, 90);
     transition: 0.3s;
     animation: float 3s ease-in-out infinite;
     gap: 1rem;
@@ -100,7 +100,7 @@ a:hover{
 
     border-radius: 50%;
 
-    border: 2px solid #fff;
+    border: 2px solid rgb(90, 25, 90);
 
     margin-bottom: 20px;
 }
