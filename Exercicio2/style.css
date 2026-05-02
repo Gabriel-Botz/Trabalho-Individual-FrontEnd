@@ -19,19 +19,24 @@ body{
     font-size: small;
 }
 
+.titulo{
+    font-size: 2rem;
+}
+
 span{
     color: #805DF4;
 }
 
 h3{
     display: flex;
-    padding: 2px;
-    background-color: #805DF4;
+    padding: 3px;
+    background-color: #563ea7;
     width: 4rem;
     border-radius: 4px;
     font-size: 0.8rem;
     font-weight: 400;
     justify-content: center;
+    margin-bottom: 5px;
   
 }
 
@@ -43,12 +48,16 @@ h3{
     width: 600px;
     height: 450px;
     border: solid 2px #000000;
-    border-radius: 8px;
-    padding: 8px;
+    padding: 10px;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
 }
 
 .msg{
     margin-bottom: 10px;
+    font-weight: 300;
 }
 
 .container img{
@@ -61,16 +70,13 @@ h3{
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 90%;
     background-image: url(img/backmac.png);
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 
-
 .principal{
-   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -82,10 +88,11 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: left;
-    
     width: 300px;
     height: 100%;
     justify-content: space-between;
+
+    margin-bottom: 20px;
 
 }
 
@@ -95,8 +102,22 @@ ul{
     flex-direction: column;
     align-items: left;
     gap: 5px;
-    font-size: small;
-    font-weight: 250;
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+
+.venda{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hardware{
@@ -104,16 +125,52 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 3rem;
-    border: 1px solid gray; 
+    border: solid 1px #7D5BD4; 
     padding: 10px;
     border-radius: 8px;
-    width: 500px;
+    width: 90%;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.0);  
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.hardware:hover{
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
 }
 
 .divisor{
     display: flex;  
     flex-direction: row;
+    border-right: solid 1px #7D5BD4;
+    height: 40px;
+    width: 135px;
+    align-items: center;    
+    justify-content: center;
+    gap: 10px;
+}
+
+.divisorOff{
+     display: flex;  
+    flex-direction: row;
+    height: 40px;
+    width: 135px;
+    align-items: center;    
+    justify-content: center;
+    gap: 10px;
+}
+
+.enf{
+    color: #A17CF7;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+.prg{
+    color: #BB9BF8;
 }
 
 .button{
@@ -127,9 +184,12 @@ ul{
     justify-content: space-between;
 }
 
-.venda{
+.garantia{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
+
+
+
+
