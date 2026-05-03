@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.section{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.container{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+}
+
+.container2{
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.preto{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+
+.rosa{
+    width: 180px;
+    background-color: pink;
+}
+
+.amarelo{
+    height: 90%;
+    background-color:#EFE4B0;
+}
+
+.marrom{
+    background-color: #B97A57; 
+    height: 10%;
+}
+
+
+
+
+
