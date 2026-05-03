@@ -298,6 +298,7 @@ li{
     align-items: center;
     justify-content: center;
     height: 80px;
+    flex-direction: row;
 }
 
 .compra a{
@@ -305,25 +306,32 @@ li{
     color: #ffffff;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    font-size: 0.8rem;
 }
 
 .botao{
     display: flex;
-    padding: 5px;
-    align-items: center;
+    text-align: center;
     justify-content: center;
+    align-items: center;
     width: 180px;
     height: 40px;
     background-color: #563ea7;
     border-radius: 15px;
-    border: 0;
-    gap: 5px;
+    transition: 0.3s ease;
 }
 
-a:hover{
-    color: #8473bb;
+.cart{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
 }
 
+
+.botao:hover{
+    background-color: #6f55d1;
+    transform: scale(1.03);
+    cursor: pointer;
+}
 
 
