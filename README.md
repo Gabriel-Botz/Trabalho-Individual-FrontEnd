@@ -13,10 +13,12 @@ Repositório com os exercícios desenvolvidos para a avaliação individual da d
 ```
 avaliacao-html-css/
 ├── exercicio-01/
+│   ├── img
 │   ├── index.html
 │   └── style.css
 │
 ├── exercicio-02/
+│   ├── img
 │   ├── index.html
 │   └── style.css
 │
