@@ -19,12 +19,31 @@ body{
     font-size: small;
 }
 
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 65px;
+    width: 150px;
+}
+
 .titulo{
-    font-size: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    width: 150px;
+    height: 30px;
 }
 
 .PRO{
+    display: flex;
     color: #805DF4;
+    font-size: 2rem;
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    
+     
+     
 }
 
 h3{
@@ -32,7 +51,7 @@ h3{
     padding: 3px;
     background-color: #563ea7;
     width: 4rem;
-    border-radius: 4px;
+    border-radius: 10px 4px 10px 4px;
     font-size: 0.8rem;
     font-weight: 400;
     justify-content: center;
@@ -147,13 +166,20 @@ li{
 }
 
 .divisorOff{
-     display: flex;  
+    display: flex;  
     flex-direction: row;
     height: 40px;
     width: 135px;
     align-items: center;    
     justify-content: center;
     gap: 10px;
+}
+
+.subdivisor{
+    display: flex;
+    height: 100%;
+    width: 96%;
+    margin-right: 4%;
 }
 
 .enf{
