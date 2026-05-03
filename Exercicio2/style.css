@@ -260,7 +260,7 @@ li{
 .zeros{
     font-size: small;
     position: absolute;
-    margin: 5px;
+    margin-top:5px;
     color: #8461F1;
     font-weight: 800;
     font-size: 1rem;
